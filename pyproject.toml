@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowinn_torch"
+version = "1.0.0"
+description = "Pytorch version of Physics-Informed Neural Network framework for airfoil simulations"
+authors = [{ name="Vishnu Sankar", email="your.email@example.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11.0"
+
+[tool.setuptools]
+packages = ["flowinn_torch"]
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[project.urls]
+Homepage = "https://your-repo-or-docs-link"
