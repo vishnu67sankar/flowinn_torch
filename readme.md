@@ -42,4 +42,7 @@ pip install -e .
 ```
 
 # Airfoil Example
-This is a simulation of 2D flow over an airfoil. The jupyter notebook can be found inside `jupyterNotebook/` directory
+This is a simulation of 2D flow over an airfoil. The jupyter notebook can be found inside `jupyterNotebook/` directory. The result after 10,000 epochs still has non-zero residual in the order of $10^{-1}$ 
+![U velocity](./jupyterNotebook/images/u_field.png)
+![V velocity](./jupyterNotebook/images/v_field.png)
+![P velocity](./jupyterNotebook/images/p_field.png)
